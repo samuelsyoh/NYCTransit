@@ -1,0 +1,21 @@
+<div class="container">  
+    
+  <h1> Stations List Test </h1>  
+    
+  <table class="table table-striped">  
+    <thead>  
+        <tr>  
+          <th>ID</th>  
+          <th>Name</th>  
+          <th>Location</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let station of stations">  
+        <td>{{ station.id }}</td>  
+        <td>{{ station.name }}</td>  
+        <td>{{ station.location }}</td>  
+      </tr>  
+    </tbody>  
+  </table>  
+</div>
